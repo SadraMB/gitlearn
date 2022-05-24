@@ -1,0 +1,19 @@
+mkdir gitlearn
+cd gitlearn
+git init
+git config --global user.name "Sadra_MB"
+git config --global user.email "sadme2311@gmail.com"
+touch file.txt
+git status
+git add file.txt
+git commit -m "empty file commited"
+git status
+touch .gitignore
+git add .gitignore
+git commit -m "gitignore commited"
+#file.txt changed
+git status
+git diff
+git diff file.txt
+git blame file.txt
+git commit -m "project ready to be sent"
