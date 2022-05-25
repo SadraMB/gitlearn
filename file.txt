@@ -17,3 +17,4 @@ git diff
 git diff file.txt
 git blame file.txt
 git commit -m "project ready to be sent"
+git status
